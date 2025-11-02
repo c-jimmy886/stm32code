@@ -1,0 +1,2501 @@
+Dependencies for Project 'Project', Target 'TEST': (DO NOT MODIFY !)
+F (.\main.c)(0x6900C9C9)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\pid.h)(0x67F65A76)
+I (..\MY\rm_motor.h)(0x6900BAB4)
+I (..\MY\chassis.h)(0x6900C08E)
+I (..\MY\dm_motor.h)(0x678D04DE)
+I (..\MY\dma_usart.h)(0x686E7638)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+F (..\CORE\system_at32f403a_407.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\system_at32f403a_407.o --omf_browse ..\obj\system_at32f403a_407.crf --depend ..\obj\system_at32f403a_407.d)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\CORE\src\at32f403a_407_clock.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_clock.o --omf_browse ..\obj\at32f403a_407_clock.crf --depend ..\obj\at32f403a_407_clock.d)
+I (..\CORE\inc\at32f403a_407_clock.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\CORE\src\at32f403a_407_int.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_int.o --omf_browse ..\obj\at32f403a_407_int.crf --depend ..\obj\at32f403a_407_int.d)
+I (..\CORE\inc\at32f403a_407_int.h)(0x67D77C3A)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\CORE\startup_at32f403a_407.s)(0x6569D9A0)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "AT32F403AVGT7 SETA 1"--list .\listings\startup_at32f403a_407.lst --xref -o ..\obj\startup_at32f403a_407.o --depend ..\obj\startup_at32f403a_407.d)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_acc.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_acc.o --omf_browse ..\obj\at32f403a_407_acc.crf --depend ..\obj\at32f403a_407_acc.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_adc.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_adc.o --omf_browse ..\obj\at32f403a_407_adc.crf --depend ..\obj\at32f403a_407_adc.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_bpr.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_bpr.o --omf_browse ..\obj\at32f403a_407_bpr.crf --depend ..\obj\at32f403a_407_bpr.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_can.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_can.o --omf_browse ..\obj\at32f403a_407_can.crf --depend ..\obj\at32f403a_407_can.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_crc.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_crc.o --omf_browse ..\obj\at32f403a_407_crc.crf --depend ..\obj\at32f403a_407_crc.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_crm.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_crm.o --omf_browse ..\obj\at32f403a_407_crm.crf --depend ..\obj\at32f403a_407_crm.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_dac.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_dac.o --omf_browse ..\obj\at32f403a_407_dac.crf --depend ..\obj\at32f403a_407_dac.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_debug.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_debug.o --omf_browse ..\obj\at32f403a_407_debug.crf --depend ..\obj\at32f403a_407_debug.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_dma.c)(0x66F559A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_dma.o --omf_browse ..\obj\at32f403a_407_dma.crf --depend ..\obj\at32f403a_407_dma.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_emac.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_emac.o --omf_browse ..\obj\at32f403a_407_emac.crf --depend ..\obj\at32f403a_407_emac.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_exint.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_exint.o --omf_browse ..\obj\at32f403a_407_exint.crf --depend ..\obj\at32f403a_407_exint.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_flash.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_flash.o --omf_browse ..\obj\at32f403a_407_flash.crf --depend ..\obj\at32f403a_407_flash.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_gpio.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_gpio.o --omf_browse ..\obj\at32f403a_407_gpio.crf --depend ..\obj\at32f403a_407_gpio.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_i2c.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_i2c.o --omf_browse ..\obj\at32f403a_407_i2c.crf --depend ..\obj\at32f403a_407_i2c.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_misc.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_misc.o --omf_browse ..\obj\at32f403a_407_misc.crf --depend ..\obj\at32f403a_407_misc.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_pwc.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_pwc.o --omf_browse ..\obj\at32f403a_407_pwc.crf --depend ..\obj\at32f403a_407_pwc.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_rtc.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_rtc.o --omf_browse ..\obj\at32f403a_407_rtc.crf --depend ..\obj\at32f403a_407_rtc.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_sdio.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_sdio.o --omf_browse ..\obj\at32f403a_407_sdio.crf --depend ..\obj\at32f403a_407_sdio.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_spi.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_spi.o --omf_browse ..\obj\at32f403a_407_spi.crf --depend ..\obj\at32f403a_407_spi.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_tmr.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_tmr.o --omf_browse ..\obj\at32f403a_407_tmr.crf --depend ..\obj\at32f403a_407_tmr.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_usart.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_usart.o --omf_browse ..\obj\at32f403a_407_usart.crf --depend ..\obj\at32f403a_407_usart.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_usb.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_usb.o --omf_browse ..\obj\at32f403a_407_usb.crf --depend ..\obj\at32f403a_407_usb.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_wdt.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_wdt.o --omf_browse ..\obj\at32f403a_407_wdt.crf --depend ..\obj\at32f403a_407_wdt.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_wwdt.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_wwdt.o --omf_browse ..\obj\at32f403a_407_wwdt.crf --depend ..\obj\at32f403a_407_wwdt.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\AT32f403a_FWLIB\src\at32f403a_407_xmc.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\at32f403a_407_xmc.o --omf_browse ..\obj\at32f403a_407_xmc.crf --depend ..\obj\at32f403a_407_xmc.d)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\FreeRTOS\croutine.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\croutine.o --omf_browse ..\obj\croutine.crf --depend ..\obj\croutine.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+I (..\FreeRTOS\include\croutine.h)(0x6569D9A0)
+F (..\FreeRTOS\event_groups.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\event_groups.o --omf_browse ..\obj\event_groups.crf --depend ..\obj\event_groups.d)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+I (..\FreeRTOS\include\timers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\event_groups.h)(0x6569D9A0)
+F (..\FreeRTOS\list.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\list.o --omf_browse ..\obj\list.crf --depend ..\obj\list.d)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+F (..\FreeRTOS\queue.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\queue.o --omf_browse ..\obj\queue.crf --depend ..\obj\queue.d)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+I (..\FreeRTOS\include\queue.h)(0x6569D9A0)
+F (..\FreeRTOS\stream_buffer.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\stream_buffer.o --omf_browse ..\obj\stream_buffer.crf --depend ..\obj\stream_buffer.d)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+I (..\FreeRTOS\include\stream_buffer.h)(0x6569D9A0)
+F (..\FreeRTOS\tasks.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\tasks.o --omf_browse ..\obj\tasks.crf --depend ..\obj\tasks.d)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+I (..\FreeRTOS\include\timers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\stack_macros.h)(0x6569D9A0)
+F (..\FreeRTOS\timers.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\timers.o --omf_browse ..\obj\timers.crf --depend ..\obj\timers.d)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+I (..\FreeRTOS\include\queue.h)(0x6569D9A0)
+I (..\FreeRTOS\include\timers.h)(0x6569D9A0)
+F (..\FreeRTOS\portable\rvds\ARM_CM4F\port.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\port.o --omf_browse ..\obj\port.crf --depend ..\obj\port.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+F (..\FreeRTOS\portable\memmang\heap_4.c)(0x6569D9A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\heap_4.o --omf_browse ..\obj\heap_4.crf --depend ..\obj\heap_4.d)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+F (..\MY\init.c)(0x690083AE)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\init.o --omf_browse ..\obj\init.crf --depend ..\obj\init.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\MY\dma_usart.h)(0x686E7638)
+F (..\MY\dma_usart.c)(0x68FA16C5)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\dma_usart.o --omf_browse ..\obj\dma_usart.crf --depend ..\obj\dma_usart.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\MY\dma_usart.h)(0x686E7638)
+I (D:\stm32\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+F (..\MY\rs485_coder.c)(0x66EAE904)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\rs485_coder.o --omf_browse ..\obj\rs485_coder.crf --depend ..\obj\rs485_coder.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\rs485_coder.h)(0x66EAE92C)
+F (..\MY\mellen.c)(0x672214DC)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\mellen.o --omf_browse ..\obj\mellen.crf --depend ..\obj\mellen.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\MY\mellen.h)(0x6642C08A)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+F (..\MY\kalman.c)(0x66D677E4)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\kalman.o --omf_browse ..\obj\kalman.crf --depend ..\obj\kalman.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\kalman.h)(0x66D677E4)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+F (..\MY\pid.c)(0x68F8E608)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\pid.o --omf_browse ..\obj\pid.crf --depend ..\obj\pid.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\pid.h)(0x67F65A76)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\MY\dma_usart.h)(0x686E7638)
+F (..\MY\rm_motor.c)(0x6900BB15)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\rm_motor.o --omf_browse ..\obj\rm_motor.crf --depend ..\obj\rm_motor.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\rm_motor.h)(0x6900BAB4)
+I (..\MY\chassis.h)(0x6900C08E)
+I (..\MY\my_library.h)(0x67DD9976)
+I (..\MY\pid.h)(0x67F65A76)
+F (..\MY\vesc.c)(0x68512F5A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\vesc.o --omf_browse ..\obj\vesc.crf --depend ..\obj\vesc.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\vesc.h)(0x68512F68)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\MY\arm.c)(0x6736F7E4)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\arm.o --omf_browse ..\obj\arm.crf --depend ..\obj\arm.d)
+I (..\MY\my_library.h)(0x67DD9976)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\arm.h)(0x670BA01E)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+F (..\MY\init_simplify.c)(0x67223802)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\init_simplify.o --omf_browse ..\obj\init_simplify.crf --depend ..\obj\init_simplify.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\MY\key.c)(0x684C0ED4)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\MY\key.h)(0x68452EA2)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\MY\link_list.c)(0x662D1B7C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\link_list.o --omf_browse ..\obj\link_list.crf --depend ..\obj\link_list.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\MY\link_list.h)(0x6632FE74)
+I (D:\stm32\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+F (..\MY\my_library.c)(0x67DD996C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\my_library.o --omf_browse ..\obj\my_library.crf --depend ..\obj\my_library.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\my_library.h)(0x67DD9976)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\MY\my_malloc.c)(0x666A84DA)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\my_malloc.o --omf_browse ..\obj\my_malloc.crf --depend ..\obj\my_malloc.d)
+I (..\MY\my_malloc.h)(0x666A84DA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\MY\walk_motor.c)(0x6722386A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\walk_motor.o --omf_browse ..\obj\walk_motor.crf --depend ..\obj\walk_motor.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\MY\walk_motor.h)(0x6642B94E)
+F (..\MY\dm_motor.c)(0x68FB7F29)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\dm_motor.o --omf_browse ..\obj\dm_motor.crf --depend ..\obj\dm_motor.d)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\MY\dm_motor.h)(0x678D04DE)
+F (..\MY\input.c)(0x67223B9C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\input.o --omf_browse ..\obj\input.crf --depend ..\obj\input.d)
+I (..\MY\input.h)(0x65B70F86)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\MY\ak_motor.c)(0x67E37D96)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\ak_motor.o --omf_browse ..\obj\ak_motor.crf --depend ..\obj\ak_motor.d)
+I (..\MY\dm_motor.h)(0x678D04DE)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\ak_motor.h)(0x67D1895E)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\MY\dma_usart.h)(0x686E7638)
+F (..\MY\free.c)(0x6724BE7E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\free.o --omf_browse ..\obj\free.crf --depend ..\obj\free.d)
+I (..\MY\free.h)(0x67243452)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\FreeRTOS\include\freertos.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\FreeRTOS\include\task.h)(0x6569D9A0)
+I (..\FreeRTOS\include\list.h)(0x6569D9A0)
+I (..\FreeRTOS\include\semphr.h)(0x6569D9A0)
+I (..\FreeRTOS\include\queue.h)(0x6569D9A0)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+F (..\MY\us.c)(0x66FE6580)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\us.o --omf_browse ..\obj\us.crf --depend ..\obj\us.d)
+I (..\MY\dma_usart.h)(0x686E7638)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\us.h)(0x66FE7DCA)
+I (..\MY\my_library.h)(0x67DD9976)
+I (D:\stm32\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\MY\hwt901.c)(0x66EED29C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\hwt901.o --omf_browse ..\obj\hwt901.crf --depend ..\obj\hwt901.d)
+I (..\MY\dma_usart.h)(0x686E7638)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\hwt901.h)(0x672A0AC2)
+F (..\MY\ad7190.c)(0x67B29D8C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\ad7190.o --omf_browse ..\obj\ad7190.crf --depend ..\obj\ad7190.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\ad7190.h)(0x67B29D7E)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+F (..\MY\nrf24l01.c)(0x6724E4AC)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\nrf24l01.o --omf_browse ..\obj\nrf24l01.crf --depend ..\obj\nrf24l01.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\SYSTEM\delay\delay.h)(0x66F14A9A)
+I (..\USER\main.h)(0x6724E228)
+I (..\MY\nrf24l01.h)(0x67028F1A)
+F (..\MY\sm.c)(0x673F3630)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\sm.o --omf_browse ..\obj\sm.crf --depend ..\obj\sm.d)
+I (..\MY\sm.h)(0x673F3630)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\MY\chassis.c)(0x6900C2F9)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\chassis.o --omf_browse ..\obj\chassis.crf --depend ..\obj\chassis.d)
+I (..\MY\chassis.h)(0x6900C08E)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\USER\main.h)(0x6724E228)
+F (..\MY\unitree.c)(0x67E4305A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\unitree.o --omf_browse ..\obj\unitree.crf --depend ..\obj\unitree.d)
+I (..\MY\unitree.h)(0x67E40D1E)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\MY\dma_usart.h)(0x686E7638)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\MY\oid.c)(0x67EFC20A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\oid.o --omf_browse ..\obj\oid.crf --depend ..\obj\oid.d)
+I (..\MY\init.h)(0x67E3D548)
+I (..\MY\init_simplify.h)(0x6724E3BA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\MY\oid.h)(0x67EFC1EA)
+F (..\MY\state_machine.c)(0x69001D65)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\state_machine.o --omf_browse ..\obj\state_machine.crf --depend ..\obj\state_machine.d)
+I (..\MY\state_machine.h)(0x687CDDEA)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\stm32\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\SYSTEM\sys\sys.c)(0x57FC593E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+F (..\SYSTEM\usart\usart.c)(0x68275CEA)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6569D9A0)
+I (..\FreeRTOS\include\projdefs.h)(0x6569D9A0)
+I (..\FreeRTOS\include\portable.h)(0x6569D9A0)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6569D9A0)
+I (..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x6569D9A0)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6569D9A0)
+I (..\MY\dma_usart.h)(0x686E7638)
+F (..\SYSTEM\delay\delay.c)(0x67D6C45A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\CORE\inc -I ..\CMSIS\core_support -I ..\AT32f403a_FWLIB\inc -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\FreeRTOS\portable\memmang -I ..\BSP -I ..\USER -I ..\MY -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SYSTEM\delay-I.\RTE\_TEST-ID:\stm32\ARM\PACK\ArteryTek\AT32F403A_407_DFP\2.2.0\Device\Include-ID:\stm32\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\CORE\inc\at32f403a_407_clock.h)(0x6569D9A0)
+I (..\CORE\at32f403a_407.h)(0x6569D9A0)
+I (..\CMSIS\core_support\core_cm4.h)(0x6569D9A0)
+I (D:\stm32\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\core_support\cmsis_version.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_compiler.h)(0x6569D9A0)
+I (..\CMSIS\core_support\cmsis_armcc.h)(0x6569D9A0)
+I (..\CMSIS\core_support\mpu_armv7.h)(0x6569D9A0)
+I (..\CORE\system_at32f403a_407.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_def.h)(0x6569D9A0)
+I (..\CORE\inc\at32f403a_407_conf.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crm.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_tmr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_rtc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_bpr.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_gpio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_i2c.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usart.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_pwc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_can.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_adc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dac.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_spi.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_dma.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_debug.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_flash.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_crc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wwdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_wdt.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_exint.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_sdio.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_xmc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_acc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_misc.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_usb.h)(0x6569D9A0)
+I (..\AT32f403a_FWLIB\inc\at32f403a_407_emac.h)(0x6569D9A0)
+I (..\SYSTEM\usart\usart.h)(0x671A55F6)
+I (D:\stm32\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\SYSTEM\sys\sys.h)(0x671A15F6)

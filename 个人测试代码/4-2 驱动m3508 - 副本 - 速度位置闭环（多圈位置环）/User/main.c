@@ -1,0 +1,124 @@
+#include "stm32f10x.h"
+#include "can.h"
+#include "gpio.h"
+#include "timer.h"
+#include "pid.h"
+#include "m3508.h"
+#include "usart.h"
+#include "Delay.h"
+#include "Key.h"
+
+#include <stdlib.h>
+
+
+//usart接收到的数据
+double  usart_data_p=0;
+double  usart_data_i=0;
+
+Motor_TypeDef motor;
+PID_TypeDef speed_pid;
+
+uint16_t  tim=0;
+uint16_t  can=0;
+
+void process(char *string,double * data);
+
+int main(void)
+{
+
+    SystemInit();
+    
+    GPIO_Config();
+    CAN_Config();
+    TIM3_Config(500); // 100Hz控制频率
+    Serial_Init();
+	Key_Init();
+	//pid串级  1.5  0.01  0.1  1.5  0.004  0.5  20000  -20000
+	//串级    7.0  0.11  1.0  1.6   0.007   2.4  20000  -20000    完整版 不会抖  力气大
+    PID_Init(&speed_pid,7.0f,0.11f,1.0f,1.6f,0.007f,2.4f,20000,-20000);//位置环调好了，速度环还不行
+	
+	//速度环  4.0  0.1  0.8
+	//ad:当在接近的时候抖动厉害就单独增大d，但是增大d好像会影响i靠近目标值  2.4
+	
+	
+	
+    M3508_Init(&motor,0x201); // 电机CAN ID，上来先要找到对应地址
+    
+    motor.target_speed =0; // 100RPM
+	
+	motor.target_position=0;
+
+    TIM_Cmd(TIM3, ENABLE);
+    uint8_t keynum=0;
+	
+    while (1)
+    {
+		
+//      Serial_Printf("%d,%d,%d\r\n",motor.angle,motor.real_speed,motor.target_speed);
+		Serial_Printf("%d,%d,%f\r\n",motor.total_angle,motor.target_position,motor.current);
+//		Serial_Printf("%.2lf,%.2lf\r\n",speed_pid.integral_a,speed_pid.integral);
+//		Serial_Printf("%.2lf,%.2lf\r\n",speed_pid.output_a,speed_pid.output_s);
+		
+		
+		if(Serial_RxFlag==1)
+		{
+			process(Serial_RxPacket,&usart_data_p);
+			
+			Serial_Printf("111%lf\r\n",usart_data_p);
+			PID_Init(&speed_pid,0,0,0.0f,usart_data_p,usart_data_i,0.5,10000,-10000);
+			
+			Serial_RxFlag=0;
+		}
+		if(Serial_RxFlag==2)
+		{
+			process(Serial_RxPacket,&usart_data_i);
+			
+			Serial_Printf("222%lf\r\n",usart_data_i);
+			PID_Init(&speed_pid,0,0,0.0f,usart_data_p,usart_data_i,0.5,10000,-10000);
+			
+			Serial_RxFlag=0;
+		}
+		
+		
+		keynum=Key_GetNum();
+//		
+		if(keynum==4)
+		{
+//			motor.target_speed +=200;
+			motor.target_position+=500;
+			keynum=0;
+		}
+		else if(keynum==3)
+		{
+//			motor.target_speed -=100;
+			motor.target_position-=500;
+			keynum=0;
+		}
+//		
+//		Delay_ms(10);
+    }
+}
+
+// 定时器3中断服务函数
+void TIM3_IRQHandler(void)
+{
+    if (TIM_GetITStatus(TIM3, TIM_IT_Update) != RESET)
+    {
+		tim++;
+       
+//		OLED_ShowNum(2,1,motor.angle,3);
+//        // 速度环控制
+       M3508_SpeedControl(&motor, &speed_pid);//这个容易卡住
+		
+		 TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
+    }
+}
+
+void process(char *string,double * data)
+{
+	*data=atof(string);
+	
+	Serial_Printf("%lf\r\n",*data);
+}
+
+
