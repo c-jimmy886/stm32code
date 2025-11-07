@@ -1,0 +1,76 @@
+T6680 000:385.850   SEGGER J-Link V7.22b Log File
+T6680 000:387.118   DLL Compiled: Jun 17 2021 17:22:49
+T6680 000:387.162   Logging started @ 2024-11-01 12:36
+T6680 000:387.208 - 387.234ms
+T6680 000:387.758 JLINK_SetWarnOutHandler(...)
+T6680 000:388.261 - 0.528ms
+T6680 000:388.313 JLINK_OpenEx(...)
+T6680 000:398.178   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T6680 000:398.391   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T6680 000:698.746   Failed to connect to J-Link GUI Server.
+T6680 005:424.967   TELNET listener socket opened on port 19021
+T6680 005:426.057   WEBSRV Starting webserver
+T6680 005:426.562   WEBSRV Webserver running on local port 19080
+T6680 005:426.634 - 5038.736ms returns "O.K."
+T6680 005:427.104 JLINK_GetEmuCaps()
+T6680 005:427.124 - 0.027ms returns 0x98E61B83
+T6680 005:427.154 JLINK_TIF_GetAvailable(...)
+T6680 005:427.169 - 0.023ms
+T6680 005:427.190 JLINK_SetErrorOutHandler(...)
+T6680 005:427.205 - 0.022ms
+T6680 005:427.954 JLINK_ExecCommand("ProjectFile = "D:\µ¥Æ¬»ú\stm32\0_FreeRTOS_AT32_f403A\USER\JLinkSettings.ini"", ...). 
+T6680 005:476.292 - 48.363ms returns 0x00
+T6680 005:477.551 JLINK_ExecCommand("Device = -AT32F403AVGT7", ...). 
+T6680 012:507.616 - 0.815ms returns 0xFFFFFFFF
+T6680 012:507.761 JLINK_GetHardwareVersion()
+T6680 012:509.790 - 2.060ms returns 20100
+T6680 012:509.839 JLINK_GetDLLVersion()
+T6680 012:509.858 - 0.032ms returns 72202
+T6680 012:509.886 JLINK_GetOEMString(...)
+T6680 012:509.911 JLINK_GetFirmwareString(...)
+T6680 012:509.934 - 0.032ms
+T6680 012:509.959 JLINK_GetDLLVersion()
+T6680 012:509.977 - 0.027ms returns 72202
+T6680 012:509.998 JLINK_GetCompileDateTime()
+T6680 012:510.015 - 0.058ms
+T6680 012:510.069 JLINK_GetFirmwareString(...)
+T6680 012:510.092 - 0.040ms
+T6680 012:510.130 JLINK_GetHardwareVersion()
+T6680 012:510.161 - 0.045ms returns 20100
+T6680 012:510.197 JLINK_GetSN()
+T6680 012:510.227 - 0.045ms returns 1041314868
+T6680 012:510.263 JLINK_GetOEMString(...)
+T6680 013:525.420 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T6680 013:525.778   
+  ***** Error: 
+T6680 013:525.809   Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.
+T6680 013:525.831 - 0.418ms returns 0x01
+T6680 013:525.862 JLINK_HasError()
+T6680 013:525.961 JLINK_SetSpeed(5000)
+T6680 013:526.092 - 0.141ms
+T6680 013:527.340 JLINK_HasError()
+T6680 013:527.375 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T6680 013:527.390 - 0.022ms returns JLINKARM_RESET_TYPE_NORMAL
+T6680 013:527.407 JLINK_Reset()
+T6680 013:537.717   
+  ***** Error: 
+T6680 013:537.785   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+T6680 013:537.808 - 10.408ms
+T6680 013:539.500 JLINK_GetId()
+T6680 013:541.726   
+  ***** Error: 
+T6680 013:541.762   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+T6680 013:541.783 - 2.290ms returns 0x00000000
+T6680 013:541.807 JLINK_GetId()
+T6680 013:543.690   
+  ***** Error: 
+T6680 013:543.735   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+T6680 013:543.766 - 1.968ms returns 0x00000000
+T6680 013:620.149 JLINK_GetFirmwareString(...)
+T6680 013:620.201 - 0.059ms
+T6680 015:952.776 JLINK_Close()
+T6680 015:973.401 - 20.698ms
+T6680 015:973.487   
+T6680 015:973.507   Closed

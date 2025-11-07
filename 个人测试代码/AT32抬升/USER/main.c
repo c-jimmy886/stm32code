@@ -163,10 +163,7 @@ int main()
 			PushMotor6.Aim_Speed=0;   PushMotor7.Aim_Speed=0;
             buf[0]=0;
 		}
-
-		
-    }
-    
+    } 
 }
 
 void TMR3_GLOBAL_IRQHandler(void)
@@ -188,7 +185,7 @@ void TMR3_GLOBAL_IRQHandler(void)
 		*PushMotor3.Now_Place,&pids4,PushMotor3.Aim_Speed,*PushMotor3.Now_Speed,PushMotor3.Max_Current,10000);
 //		
 ////	U5=pid_pos_vel(&pid1,8,1.1,2,50,20,8000,*PushMotor4.Now_Speed,PushMotor4.Aim_Place,*PushMotor4.Now_Current,17000,0);
-//	
+
 		U5=pid_speed_current(&pid5,PushMotor4.Aim_Speed,*PushMotor4.Now_Speed,1000);
         U6=pid_speed_current(&pid6,PushMotor5.Aim_Speed,*PushMotor5.Now_Speed,1000);
 		U7=pid_speed_current(&pid7,PushMotor6.Aim_Speed,*PushMotor6.Now_Speed,1000);
